@@ -1,6 +1,7 @@
 import uuid
-from typing import List
+from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException, status
+from pydantic import BaseModel
 from sqlalchemy.orm import Session
 
 from backend.database.session import get_db
@@ -53,3 +54,44 @@ def delete_agent(
         raise HTTPException(status_code=404, detail="Agent not found")
     return
 
+
+class AgentConfigPatch(BaseModel):
+    status: Optional[str] = None          # "online" | "offline" | "disabled"
+    heartbeat_interval: Optional[int] = None   # seconds
+    log_level: Optional[str] = None       # "INFO" | "DEBUG" | "WARNING" | "ERROR"
+
+@router.patch("/{agent_id}/config", response_model=AgentResponse)
+def configure_agent(
+    agent_id: uuid.UUID,
+    config: AgentConfigPatch,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """
+    Update an agent's configuration: status (enable/disable),
+    heartbeat interval, and log verbosity level.
+    """
+    agent = agent_service.get_agent(db, agent_id)
+    if not agent:
+        raise HTTPException(status_code=404, detail="Agent not found")
+    
+    if config.status is not None:
+        agent.status = config.status
+    
+    # Store extra config in the agent record if columns exist
+    # These are graceful no-ops if the columns aren't yet on the model
+    if config.heartbeat_interval is not None:
+        try:
+            agent.heartbeat_interval = config.heartbeat_interval
+        except AttributeError:
+            pass  # Column not yet on model — graceful skip
+    
+    if config.log_level is not None:
+        try:
+            agent.log_level = config.log_level
+        except AttributeError:
+            pass  # Column not yet on model — graceful skip
+    
+    db.commit()
+    db.refresh(agent)
+    return agent

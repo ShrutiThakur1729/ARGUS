@@ -37,6 +37,36 @@ def create_alert(db: Session, alert_in: AlertCreate) -> Alert:
             message=msg,
             severity=alert.severity
         )
+
+    # Generate AI predictions for high/critical alerts linked to incidents
+    from backend.config import settings
+    if settings.AI_ENABLED and alert.severity.lower() in ("high", "critical") and alert.incident_id:
+        try:
+            from backend.services.ai_service import ai_service
+            from backend.models.prediction import Prediction
+            
+            prompt = (
+                f"Predict the next step for this security alert:\n"
+                f"Title: {alert.title}\n"
+                f"Description: {alert.description}\n"
+                f"MITRE Technique: {alert.mitre_technique}\n"
+                f"Suggest a single logical next step an attacker might take (max 12 words)."
+            )
+            ai_next_step = ai_service.generate_response(prompt, "You are a cyber threat analyst. Be extremely brief.")
+            if ai_next_step and "AI response unavailable" not in ai_next_step:
+                prediction = Prediction(
+                    incident_id=alert.incident_id,
+                    predicted_next_step=ai_next_step,
+                    probability=0.85,
+                    mitre_tactic=alert.mitre_tactic,
+                    mitre_technique=alert.mitre_technique
+                )
+                db.add(prediction)
+                db.commit()
+        except Exception as e:
+            # We must never crash alert creation if AI generation fails
+            pass
+
     return alert
 
 def update_alert(db: Session, alert_id: uuid.UUID, alert_up: AlertUpdate) -> Optional[Alert]:

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "bdaee24f-5f8f-4b4f-a740-5e1f8a01eaa4",
+    "title": "Daily Incident Audit Summary",
+    "file_type": "pdf",
+    "recipient_email": "23104035@apsit.edu.in",
+    "content": "============================================================\nARGUS SECURITY OPERATIONS CENTER EXECUTIVE REPORT\n============================================================\n\nORGANIZATION: AIIMS CII\nDEPARTMENT: Cybersecurity Forensics\nINSTITUTION: AIIMS Hospital\nGENERATED AT: 22/7/2026, 8:34:55 pm\nTIMEZONE: IST (UTC+05:30)\n\n============================================================\n1. EXECUTIVE SECURITY SUMMARY\n============================================================\nThe ARGUS Cyber Defense Platform is currently monitoring 14 CNI endpoints.\nCurrently, there are 1 active security incidents requiring review.\n\n============================================================\n2. INCIDENT TIMELINE & DETECTED THREATS\n============================================================\n[Incident #1] Lateral movement in Delhi CNI subnet\n- Severity: HIGH\n- Status: INVESTIGATING\n- Created: 22/7/2026, 6:51:13 pm\n- Description: Threat actor utilizing compromised admin tokens to pivot from workstation ADM-09 to CNI Active Directory.\n- Operator Assigned: analyst\n\n[Incident #2] SQL Injection Campaign on production DB\n- Severity: CRITICAL\n- Status: CLOSED\n- Created: 22/7/2026, 6:51:13 pm\n- Description: Slow sqlmap spray detected targeting Database Server CNI asset, originating from external malicious proxy.\n- Operator Assigned: analyst\n\n============================================================\n3. MITRE ATT&CK MAPPINGS\n============================================================\n- Technique T1498: Network Denial of Service (Tactic: Impact)\n- Technique T1498: Network Denial of Service (Tactic: Impact)\n- Technique T1498: Network Denial of Service (Tactic: Impact)\n- Technique T1059.001: Command and Scripting Interpreter (Tactic: Execution)\n- Technique T1078: Valid Accounts (Tactic: Initial Access)\n- Technique T1550: Use Alternate Authentication Material (Tactic: Lateral Movement)\n- Technique T1190: Exploit Public-Facing Application (Tactic: Initial Access)\n- Technique T1190: Exploit Public-Facing Application (Tactic: Initial Access)\n- Technique T1190: Exploit Public-Facing Application (Tactic: Initial Access)\n- Technique T1190: Exploit Public-Facing Application (Tactic: Initial Access)\n\n============================================================\n4. CONTAINMENT RECOMMENDATIONS\n============================================================\n- Isolate affected network host endpoints immediately.\n- Block threat origin IP addresses on perimeter routers.\n- Reset credentials for compromised operators and user domains.\n- Run full telemetry scans on adjacent subnet switches.\n",
+    "status": "failed",
+    "size": "2.4 MB",
+    "timestamp": "2026-07-22T20:34:57.880811"
+  },
+  {
+    "id": "44f39ec2-8f1f-49c2-b097-c41571bf24a5",
+    "title": "Daily Incident Audit Summary",
+    "file_type": "pdf",
+    "recipient_email": "analyst@aiims.edu",
+    "status": "delivered",
+    "size": "2.4 MB",
+    "timestamp": "2026-07-22T19:25:25.873647"
+  }
+]

@@ -6,6 +6,7 @@ from backend.database.database import engine, Base
 
 # Import all models to ensure they are registered with Base metadata
 from backend.models.user import User
+from backend.models.organization import Organization
 from backend.models.agent import Agent
 from backend.models.telemetry import Telemetry
 from backend.models.alert import Alert
@@ -23,6 +24,8 @@ from backend.api.playbooks import router as playbooks_router
 from backend.api.predictions import router as predictions_router
 from backend.api.health import router as health_router
 from backend.router.alert_dispatcher import router as dispatcher_router
+from backend.api.config import router as config_router
+from backend.api.reports import router as reports_router
 
 # Create database tables automatically on startup
 Base.metadata.create_all(bind=engine)
@@ -54,6 +57,8 @@ app.include_router(incidents_router, prefix=f"{prefix}/incidents", tags=["Incide
 app.include_router(playbooks_router, prefix=f"{prefix}/playbooks", tags=["Playbooks"])
 app.include_router(predictions_router, prefix=f"{prefix}/predictions", tags=["Predictions"])
 app.include_router(dispatcher_router, prefix=f"{prefix}/dispatcher", tags=["Dispatcher"])
+app.include_router(config_router, prefix=f"{prefix}/config", tags=["Configuration"])
+app.include_router(reports_router, prefix=f"{prefix}/reports", tags=["Reports"])
 
 # Health router registered at root and V1 prefix
 app.include_router(health_router, prefix="/health", tags=["System Health"])

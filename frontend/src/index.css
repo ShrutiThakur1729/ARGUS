@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #030712;
+    color: #f3f4f6;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Reusable card utility — consistent surface across every dashboard widget */
+.card {
+  background: rgba(10, 20, 36, 0.4);
+  border: 1px solid rgba(30, 41, 59, 0.3);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  overflow: hidden;
+}
+
+/* Custom scrollbars for a premium developer theme */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Premium Glassmorphism classes - Clean, high contrast */
+.glass-premium {
+  background: rgba(17, 24, 39, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-modal {
+  background: rgba(10, 15, 30, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Restrained Enterprise Glows & Shadows */
+.glow-blue {
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.06);
+}
+
+.glow-purple {
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.06);
+}
+
+.glow-green {
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.06);
+}
+
+.glow-orange {
+  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.06);
+}
+
+.glow-red {
+  box-shadow: 0 4px 25px rgba(239, 68, 68, 0.12);
+}
+
+/* Animations */
+@keyframes dash {
+  to {
+    stroke-dashoffset: -32px;
+  }
+}
+
+.animate-packet-flow {
+  animation: dash 4s linear infinite;
+}
+
+/* Pulsing server nodes - Restrained pulse border colors */
+@keyframes pulse-glow-red {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.45);
+    border-color: rgba(239, 68, 68, 0.7);
+  }
+}
+
+@keyframes pulse-glow-orange {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(249, 115, 22, 0.15);
+    border-color: rgba(249, 115, 22, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(249, 115, 22, 0.35);
+    border-color: rgba(249, 115, 22, 0.6);
+  }
+}
+
+@keyframes pulse-glow-green {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(16, 185, 129, 0.35);
+    border-color: rgba(16, 185, 129, 0.6);
+  }
+}
+
+@keyframes pulse-glow-blue {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(59, 130, 246, 0.15);
+    border-color: rgba(59, 130, 246, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.35);
+    border-color: rgba(59, 130, 246, 0.6);
+  }
+}
+
+.node-pulse-red {
+  animation: pulse-glow-red 2.5s infinite ease-in-out;
+}
+
+.node-pulse-orange {
+  animation: pulse-glow-orange 3s infinite ease-in-out;
+}
+
+.node-pulse-green {
+  animation: pulse-glow-green 3s infinite ease-in-out;
+}
+
+.node-pulse-blue {
+  animation: pulse-glow-blue 3s infinite ease-in-out;
+}
+
+/* Background grid layout */
+.bg-grid {
+  background-size: 32px 32px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+}
+
+/* Custom scrollbar hiding helpers for grid cards */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

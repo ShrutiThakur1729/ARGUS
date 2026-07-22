@@ -20,10 +20,14 @@ def health_check(db: Session = Depends(get_db)):
             detail={"status": "unhealthy", "database": db_status}
         )
 
-    telegram_configured = bool(settings.TELEGRAM_BOT_TOKEN and settings.TELEGRAM_CHAT_ID)
+    telegram_configured = settings.TELEGRAM_ENABLED
+    email_configured = settings.EMAIL_ENABLED
+    ai_configured = settings.AI_ENABLED
 
     return {
         "status": "healthy",
         "database": db_status,
         "telegram_configured": telegram_configured,
+        "email_configured": email_configured,
+        "ai_configured": ai_configured,
     }
