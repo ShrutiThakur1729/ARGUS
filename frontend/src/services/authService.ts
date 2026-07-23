@@ -38,7 +38,7 @@ export const authService = {
   },
 
   loginWithGoogle(): void {
-    const supabaseUrl = "https://gjlppslwymuniviarclx.supabase.co";
+    const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || "https://gjlppslwymuniviarclx.supabase.co";
     // Redirect browser directly to Supabase Google Auth endpoint
     window.location.href = `${supabaseUrl}/auth/v1/authorize?provider=google&redirect_to=${window.location.origin}`;
   },
