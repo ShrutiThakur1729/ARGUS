@@ -4,7 +4,7 @@
 
 ### AI-Powered Cyber Resilience Platform for Critical National Infrastructure (CNI)
 
-**ET AI Hackathon 2026 | Problem Statement 7**
+**ET AI Hackathon 2.0 2026 | Problem Statement 7**
 
 ### *Seeing Every Threat Before It Strikes.*
 
@@ -634,11 +634,10 @@ The current prototype establishes a strong foundation for enterprise cybersecuri
 
 # 👥 Team Aikya ∞
 
-## 👩‍💻 Team Members
-
-- **Shruti Thakur**
-
----
+## 👩‍💻 Team Member
+| Name | Role |
+|------|------|
+| **Shruti Thakur** | Full Stack Developer • AI Integration • Project Lead |
 
 ## 🛡️ Project
 
