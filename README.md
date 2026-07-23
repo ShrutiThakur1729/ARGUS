@@ -28,22 +28,6 @@ Unlike traditional dashboards that simply display alerts, ARGUS assists througho
 
 ---
 
-# 🚀 Live Project
-
-### 🌐 Live Application
-
-https://argus-core.netlify.app/
-
-### 💻 GitHub Repository
-
-https://github.com/ShrutiThakur1729/ARGUS
-
-### 🎥 Demo Video, PPT & Documentation
-
-https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sharing
-
----
-
 # 📸 Prototype Preview
 
 Experience ARGUS through its enterprise-grade Security Operations Center interface.
@@ -650,11 +634,17 @@ The current prototype establishes a strong foundation for enterprise cybersecuri
 
 # 👥 Team Aikya ∞
 
-## Project
+## 👩‍💻 Team Members
+
+- **Shruti Thakur**
+
+---
+
+## 🛡️ Project
 
 **ARGUS**
 
-### ET AI Hackathon 2026
+### ET AI Hackathon 2.0 2026
 
 **Problem Statement 7**
 
@@ -663,7 +653,7 @@ The current prototype establishes a strong foundation for enterprise cybersecuri
 ---
 # 📜 License
 
-This project has been developed for educational, research, and hackathon purposes.
+This project was built for the ET AI Hackathon 2.0 2026. All rights reserved.
 
 ---
 
@@ -672,24 +662,11 @@ This project has been developed for educational, research, and hackathon purpose
 ## ⭐ Support the Project
 
 If you found ARGUS interesting, consider giving this repository a ⭐.
-
-### 🌐 Live Demo
-
-https://argus-core.netlify.app/
-
-### 💻 GitHub Repository
-
-https://github.com/ShrutiThakur1729/ARGUS
-
-### 🎥 Demo Video & Project Resources
-
-https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sharing
-
 ---
 
 ### Made with ❤️ by Team Aikya ∞
 
-**ET AI Hackathon 2026**
+**ET AI Hackathon 2.0 2026**
 
 *"Seeing Every Threat Before It Strikes."*
 
