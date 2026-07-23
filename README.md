@@ -391,7 +391,7 @@ EMAIL_FROM=
 Supports:
 
 - Executive Report Delivery
-- PDF Attachments
+- PDF/CSV Attachments
 - Delivery Logs
 
 During development, Resend sandbox mode only allows verified recipient emails or `onboarding@resend.dev`.
@@ -414,9 +414,9 @@ During development, Resend sandbox mode only allows verified recipient emails or
 | Organization Management | ✅ |
 | Integrations Panel | ✅ |
 | Agent Configuration | ✅ |
-| Live Endpoint Telemetry | 🚧 In Progress |
-| Sentry Monitoring | 📅 Planned |
-| PostHog Analytics | 📅 Planned |
+| Live Endpoint Telemetry | ✅ |
+| Sentry Monitoring | ✅ |
+| PostHog Analytics | ✅ |
 
 ---
 
@@ -451,7 +451,7 @@ During development, Resend sandbox mode only allows verified recipient emails or
 
 ---
 
-# 👥 Team
+# 👥 Team Aikya ∞
 
 **Project:** ARGUS
 
