@@ -6,7 +6,7 @@
 
 **ET AI Hackathon 2026 | Problem Statement 7**
 
-*Seeing Every Threat Before It Strikes.*
+### *Seeing Every Threat Before It Strikes.*
 
 ---
 
@@ -20,9 +20,11 @@
 
 # 📌 Overview
 
-ARGUS is an **AI-powered Security Operations Center (SOC)** platform designed to enhance the cyber resilience of **Critical National Infrastructure (CNI)**. It integrates Artificial Intelligence, real-time monitoring, intelligent threat analysis, incident simulation, executive reporting, and automated communication into a unified enterprise cybersecurity platform.
+ARGUS is an **AI-powered Security Operations Center (SOC)** platform developed to strengthen the cyber resilience of **Critical National Infrastructure (CNI)** through intelligent monitoring, AI-assisted threat analysis, incident simulation, automated reporting, and real-time communication.
 
-Built as a solution for the **ET AI Hackathon 2026 (Problem Statement 7)**, ARGUS assists cybersecurity analysts throughout the complete incident lifecycle, from detection and investigation to reporting and response.
+Designed as a solution for the **ET AI Hackathon 2026 (Problem Statement 7: AI-Driven Cyber Resilience for Critical National Infrastructure)**, ARGUS combines Artificial Intelligence with enterprise cybersecurity workflows to help security analysts detect, investigate, understand, and respond to cyber threats more efficiently.
+
+Unlike traditional dashboards that simply display alerts, ARGUS assists throughout the complete incident lifecycle by generating AI-powered threat summaries, MITRE ATT&CK mappings, executive reports, and automated notifications through a centralized Security Operations Center (SOC).
 
 ---
 
@@ -36,9 +38,75 @@ https://argus-core.netlify.app/
 
 https://github.com/ShrutiThakur1729/ARGUS
 
-### 🎥 Demo Video & Supporting Documents
+### 🎥 Demo Video, PPT & Documentation
 
 https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sharing
+
+---
+
+# 📸 Prototype Preview
+
+Experience ARGUS through its enterprise-grade Security Operations Center interface.
+
+---
+
+## Secure Authentication
+
+<p align="center">
+<img src="docs/images/login.png" width="90%">
+</p>
+
+Google OAuth, JWT Authentication, Organization Login and Secure Session Management.
+
+---
+
+## Enterprise SOC Dashboard
+
+<p align="center">
+<img src="docs/images/dashboard.png" width="95%">
+</p>
+
+Centralized monitoring dashboard displaying threat metrics, incident summaries, AI insights, topology visualization, security analytics and operational health.
+
+---
+
+## AI Threat Intelligence
+
+<p align="center">
+<img src="docs/images/ai-analysis.png" width="95%">
+</p>
+
+AI-generated executive summaries, MITRE ATT&CK mapping, confidence scoring and recommended response actions powered by Gemini Flash with OpenRouter fallback.
+
+---
+
+## Incident Simulation
+
+<p align="center">
+<img src="docs/images/simulation.png" width="95%">
+</p>
+
+Generate realistic cybersecurity scenarios including SQL Injection, Ransomware, Brute Force, Data Exfiltration, Insider Threat and Malware Beaconing.
+
+---
+
+## Command Center
+
+<p align="center">
+<img src="docs/images/command-center.png" width="95%">
+</p>
+
+Centralized operational console providing quick security actions, incident response workflows, report generation and AI-assisted SOC operations.
+
+---
+
+## Executive Reporting
+
+<p align="center">
+<img src="docs/images/report.png" width="95%">
+</p>
+
+Generate executive-ready PDF and CSV reports containing timelines, affected assets, MITRE mappings, AI recommendations and risk summaries.
 
 ---
 
@@ -48,24 +116,24 @@ https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sha
 
 - AI-assisted incident analysis
 - Executive threat summaries
+- Threat confidence scoring
 - MITRE ATT&CK Mapping
-- Confidence scoring
+- AI-generated recommendations
 - Threat prioritization
-- Response recommendations
-- Gemini AI integration
-- OpenRouter AI fallback
+- Gemini Flash Integration
+- OpenRouter AI Fallback
 
 ---
 
 ## 📊 Enterprise SOC Dashboard
 
-- Real-time security overview
-- Network topology visualization
-- Security analytics
-- Threat timeline
-- Incident monitoring
+- Real-time security monitoring
 - Live operational metrics
-- AI command center
+- Threat analytics
+- Network topology visualization
+- Attack timeline
+- AI reasoning panel
+- Interactive command center
 
 ---
 
@@ -75,115 +143,116 @@ https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sha
 - Alert prioritization
 - Severity classification
 - Investigation timeline
-- Evidence management
+- Evidence collection
 - Dashboard synchronization
 
 ---
 
 ## 🎭 Incident Simulation Engine
 
-Supports realistic cybersecurity simulations:
+Supports realistic cybersecurity simulations including:
 
 - SQL Injection
 - Ransomware
 - Brute Force
+- Data Exfiltration
 - Insider Threat
 - Privilege Escalation
 - Malware Beaconing
-- Data Exfiltration
 
-Each simulation automatically:
+Every simulation automatically:
 
 - Creates database records
-- Updates dashboard metrics
-- Generates AI analysis
-- Produces executive reports
-- Sends Telegram alerts
-- Updates incident timeline
+- Updates SOC dashboard
+- Triggers AI analysis
+- Generates executive reports
+- Sends Telegram notifications
+- Refreshes security metrics
 
 ---
 
 ## 📄 Executive Report Generation
 
-Generate professional reports in:
+Generate detailed reports in:
 
 - PDF
 - CSV
 
-Includes:
+Reports include:
 
 - Executive Summary
-- Timeline
+- Incident Timeline
 - Affected Assets
 - MITRE ATT&CK Mapping
 - Risk Assessment
 - AI Recommendations
 - Containment Strategy
 
-Reports can be downloaded or delivered directly through email.
+Reports can be downloaded or automatically emailed to registered users.
 
 ---
 
 ## 📨 Integrated Communication
 
 - Telegram Security Alerts
-- Email Report Delivery
-- Delivery History
-- Notification Logs
-- Executive Alert Templates
+- Executive Email Reports
+- Notification History
+- Delivery Logs
+- Alert Templates
 
 ---
 
-## 🔐 Secure Authentication
+## 🔐 Enterprise Authentication
 
 - Google OAuth
 - Email Authentication
 - JWT Authorization
-- Organization-based Access
-- Role-Based Access Control (RBAC)
 - Secure Session Management
+- Organization-Based Access
+- Role-Based Access Control (RBAC)
 
 ---
 
 ## 🏢 Organization Management
 
 - Multi-Organization Support
+- Institution Configuration
 - Analyst Profiles
-- Institution Settings
-- Department Configuration
-- Timezone Management
+- Department Management
+- Organization Branding
+- Timezone Configuration
 
 ---
 
 ## ☁ Cloud-Native Deployment
 
-- React + TypeScript
-- FastAPI
+- React + TypeScript Frontend
+- FastAPI Backend
 - Supabase PostgreSQL
 - REST APIs
 - Modular Architecture
 - AI Provider Failover
+- Enterprise Scalability
 
 ---
 
 # 🏗 System Architecture
 
-```
-                           Users
-                             │
-                             ▼
-                  React + TypeScript Frontend
-                             │
-                             ▼
-                    FastAPI REST Backend
-                             │
-      ┌──────────────────────┼───────────────────────┐
-      ▼                      ▼                       ▼
- Supabase DB          Gemini Flash AI         OpenRouter AI
-      │
-      ▼
- Telegram Bot        Resend Email API
-```
+<p align="center">
+<img src="docs/images/system-architecture.png" width="100%">
+</p>
+
+> **High-Level Architecture of ARGUS illustrating the interaction between the Presentation Layer, Backend Services, Artificial Intelligence, Cloud Infrastructure, Database and Communication Services.**
+
+---
+
+# 🔄 Operational Workflow
+
+<p align="center">
+<img src="docs/images/workflow.png" width="100%">
+</p>
+
+> **End-to-End operational workflow from user authentication to AI analysis, incident response, reporting and stakeholder notification.**
 
 ---
 
@@ -195,16 +264,16 @@ Reports can be downloaded or delivered directly through email.
 | Backend | FastAPI, Python, SQLAlchemy, Pydantic |
 | Database | PostgreSQL (Supabase) |
 | Authentication | Supabase Auth, Google OAuth, JWT |
-| Artificial Intelligence | Gemini Flash, OpenRouter |
-| Notifications | Telegram Bot API, Resend Email API |
+| AI Services | Gemini Flash, OpenRouter |
+| Notifications | Telegram Bot API, Resend Email |
 | Deployment | Netlify, Render |
-| Monitoring *(Planned)* | Sentry, PostHog |
+| Monitoring | Sentry, PostHog |
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 ARGUS
 │
 ├── backend/
@@ -212,42 +281,44 @@ ARGUS
 │   ├── services/
 │   ├── models/
 │   ├── schemas/
+│   ├── dispatcher/
+│   ├── ai/
 │   └── main.py
 │
 ├── frontend/
 │   ├── src/
 │   ├── public/
+│   ├── assets/
 │   └── package.json
 │
 ├── docs/
+│   └── images/
+│
 ├── scripts/
 ├── README.md
 ├── .env.example
 └── netlify.toml
 ```
+# ⚙️ Required Environment Variables
 
----
-
-# ⚙ Required Environment Variables
-
-All integrations are configured using environment variables inside `.env`.
+All integrations are configured using environment variables inside the `.env` file.
 
 Copy `.env.example` before starting the project.
 
 | Variable | Description | Required |
 |-----------|-------------|----------|
 | DATABASE_URL | PostgreSQL connection string | ✅ |
-| JWT_SECRET_KEY | HS256 JWT Secret | ✅ |
-| JWT_ALGORITHM | JWT Algorithm | ✅ |
-| ACCESS_TOKEN_EXPIRE_MINUTES | JWT Expiry | ✅ |
+| JWT_SECRET_KEY | HS256 JWT Secret Key | ✅ |
+| JWT_ALGORITHM | JWT Algorithm (HS256) | ✅ |
+| ACCESS_TOKEN_EXPIRE_MINUTES | JWT Expiry Duration | ✅ |
 | SUPABASE_URL | Supabase Project URL | Optional |
 | SUPABASE_SERVICE_ROLE_KEY | Supabase Service Role Key | Optional |
 | TELEGRAM_BOT_TOKEN | Telegram Bot Token | Optional |
 | TELEGRAM_CHAT_ID | Telegram Chat ID | Optional |
 | GEMINI_API_KEY | Google Gemini API Key | Optional |
 | OPENROUTER_API_KEY | OpenRouter API Key | Optional |
-| RESEND_API_KEY | Resend API Key | Optional |
-| EMAIL_FROM | Sender Email | Optional |
+| RESEND_API_KEY | Resend Email API Key | Optional |
+| EMAIL_FROM | Sender Email Address | Optional |
 
 ---
 
@@ -264,18 +335,22 @@ Copy `.env.example` before starting the project.
 ## Backend Installation
 
 ```bash
+# Navigate to backend
 cd backend
 
+# Create Virtual Environment
 python -m venv .venv
 
-# Windows
+# Activate (Windows)
 .venv\Scripts\activate
 
-# Linux / macOS
+# Activate (Linux/macOS)
 source .venv/bin/activate
 
+# Install Dependencies
 pip install -r requirements.txt
 
+# Start Backend
 uvicorn backend.main:app --reload --port 8000
 ```
 
@@ -284,16 +359,22 @@ uvicorn backend.main:app --reload --port 8000
 ## Frontend Installation
 
 ```bash
+# Navigate to frontend
+
 cd frontend
 
+# Install Packages
+
 npm install
+
+# Start Development Server
 
 npm run dev
 ```
 
 ---
 
-# 🚀 Production Setup
+# 🚀 Production Deployment
 
 ## Build Frontend
 
@@ -305,7 +386,7 @@ npm run build
 
 ---
 
-## Start Backend
+## Run Backend
 
 ```bash
 cd backend
@@ -317,53 +398,56 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000 --workers 4
 
 # 🔌 Integration Guide
 
-## Supabase
+## 🟢 Supabase
 
 Configure:
 
-- DATABASE_URL
-- SUPABASE_URL
-- SUPABASE_SERVICE_ROLE_KEY
+```
+DATABASE_URL=
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+```
 
-Used for:
+Supabase is responsible for:
 
 - PostgreSQL Database
 - Authentication
 - User Profiles
 - Organization Data
 - Incident Storage
+- Dashboard Metrics
+- Reports
 
 ---
 
-## Google Gemini
+## 🤖 Google Gemini
 
 ```
 GEMINI_API_KEY=
 ```
 
-Provides:
+Used for:
 
-- Threat Analysis
+- Threat Intelligence
+- AI Incident Analysis
 - Executive Summaries
 - MITRE ATT&CK Mapping
-- AI Recommendations
 - Risk Assessment
+- Recommended Response Actions
 
 ---
 
-## OpenRouter
+## 🔄 OpenRouter (AI Fallback)
 
 ```
 OPENROUTER_API_KEY=
 ```
 
-ARGUS automatically falls back to OpenRouter if Gemini becomes unavailable or exceeds quota limits.
+If Gemini becomes unavailable or reaches quota limits, ARGUS automatically switches to OpenRouter to maintain uninterrupted AI-assisted analysis.
 
 ---
 
-## Telegram
-
-Configure:
+## 📨 Telegram Integration
 
 ```
 TELEGRAM_BOT_TOKEN=
@@ -375,13 +459,12 @@ Automatically sends:
 - Critical Alerts
 - Incident Notifications
 - Threat Updates
-- Executive Notifications
+- AI Recommendations
+- Executive Security Alerts
 
 ---
 
-## Resend Email
-
-Configure:
+## 📧 Resend Email
 
 ```
 RESEND_API_KEY=
@@ -390,11 +473,12 @@ EMAIL_FROM=
 
 Supports:
 
-- Executive Report Delivery
-- PDF/CSV Attachments
+- Executive PDF Reports
+- CSV Reports
+- Automated Email Delivery
 - Delivery Logs
 
-During development, Resend sandbox mode only allows verified recipient emails or `onboarding@resend.dev`.
+During development, Resend Sandbox Mode restricts delivery to verified recipients or `onboarding@resend.dev`.
 
 ---
 
@@ -402,19 +486,22 @@ During development, Resend sandbox mode only allows verified recipient emails or
 
 | Module | Status |
 |----------|---------|
-| Authentication | ✅ |
+| Secure Authentication | ✅ |
 | Google OAuth | ✅ |
-| Dashboard | ✅ |
-| AI Analysis | ✅ |
+| Enterprise Dashboard | ✅ |
+| AI Threat Analysis | ✅ |
 | Incident Simulation | ✅ |
-| MITRE Mapping | ✅ |
+| MITRE ATT&CK Mapping | ✅ |
 | Executive Reports | ✅ |
+| Telegram Integration | ✅ |
 | Email Delivery | ✅ |
-| Telegram Alerts | ✅ |
 | Organization Management | ✅ |
-| Integrations Panel | ✅ |
+| Command Center | ✅ |
+| Integrations Module | ✅ |
 | Agent Configuration | ✅ |
 | Live Endpoint Telemetry | ✅ |
+| AI Provider Failover | ✅ |
+| Dashboard Analytics | ✅ |
 | Sentry Monitoring | ✅ |
 | PostHog Analytics | ✅ |
 
@@ -424,53 +511,210 @@ During development, Resend sandbox mode only allows verified recipient emails or
 
 | Service | Prototype Cost |
 |----------|----------------|
-| Netlify | Free |
-| Render | Free |
-| Supabase | Free |
+| Netlify | Free Tier |
+| Render | Free Tier |
+| Supabase | Free Tier |
 | Gemini Flash | Free Tier |
 | OpenRouter | Optional |
-| Telegram Bot | Free |
+| Telegram Bot API | Free |
 | Resend | Free Tier |
+| Google OAuth | Free |
+| Sentry | Free Tier |
+| PostHog | Free Tier |
 
-**Estimated Prototype Deployment Cost:** **₹0/month (Free Tier)**
+## Prototype Cost
+
+### **≈ ₹0 / Month**
+
+using available free tiers.
+
+---
+
+## Small Organization Deployment
+
+Estimated monthly operational cost:
+
+**₹2,000 – ₹6,000 / month**
+
+depending upon:
+
+- AI Usage
+- Email Volume
+- Backend Resources
+- Storage
+- Traffic
+
+---
+
+# 📸 Additional Screenshots
+
+## Dashboard Analytics
+
+<p align="center">
+<img src="docs/images/dashboard-analytics.png" width="95%">
+</p>
+
+---
+
+## Incident Timeline
+
+<p align="center">
+<img src="docs/images/timeline.png" width="95%">
+</p>
+
+---
+
+## Organization Management
+
+<p align="center">
+<img src="docs/images/organization.png" width="95%">
+</p>
+
+---
+
+## Integrations Panel
+
+<p align="center">
+<img src="docs/images/integrations.png" width="95%">
+</p>
+
+---
+
+## Agent Configuration
+
+<p align="center">
+<img src="docs/images/agent-config.png" width="95%">
+</p>
+
+---
+
+## Settings
+
+<p align="center">
+<img src="docs/images/settings.png" width="95%">
+</p>
+
+---
+
+# 🎯 Why ARGUS?
+
+ARGUS bridges the gap between traditional Security Operations Centers and AI-driven cyber resilience by combining intelligent threat analysis, automated incident response, executive reporting, and real-time communication into one unified platform.
+
+Instead of relying on multiple disconnected security tools, ARGUS provides security analysts with an end-to-end operational environment that improves investigation speed, enhances situational awareness, and supports informed decision-making through Artificial Intelligence.
 
 ---
 
 # 🔮 Future Roadmap
 
-- Live Endpoint Monitoring Agent
-- SIEM Integration
-- SOAR Automation
-- Threat Intelligence Feeds
+The current prototype establishes a strong foundation for enterprise cybersecurity operations. Planned future enhancements include:
+
+- Endpoint Monitoring Agent
+- Live Endpoint Telemetry
+- Threat Intelligence Feed Integration
+- SIEM Integration (Splunk, QRadar, Microsoft Sentinel)
+- SOAR Playbook Automation
 - AI Threat Hunting
-- Mobile SOC Application
-- Sentry Monitoring
-- PostHog Analytics
-- Multi-Tenant Deployment
-- Automated Playbook Execution
+- Predictive Threat Analytics
+- Mobile SOC Companion Application
+- Multi-Tenant Enterprise Deployment
+- Sentry Performance Monitoring
+- PostHog Product Analytics
+- Automated Compliance Reporting
+- AI-Powered Incident Correlation
+
+---
+
+# 🏆 Achievements
+
+✔ AI-Powered Threat Intelligence
+
+✔ Enterprise SOC Dashboard
+
+✔ Intelligent Incident Simulation
+
+✔ Automated Executive Reporting
+
+✔ Telegram & Email Notifications
+
+✔ Cloud-Native Architecture
+
+✔ Multi-Organization Support
+
+✔ Secure Authentication
+
+✔ AI Provider Failover
+
+✔ Modular & Scalable Design
 
 ---
 
 # 👥 Team Aikya ∞
 
-**Project:** ARGUS
+## Project
 
-**Hackathon:** ET AI Hackathon 2026
+**ARGUS**
 
-**Problem Statement:** PS-7 – AI-Driven Cyber Resilience for Critical National Infrastructure
+### ET AI Hackathon 2026
+
+**Problem Statement 7**
+
+**AI-Driven Cyber Resilience for Critical National Infrastructure**
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to the open-source technologies and cloud platforms that made ARGUS possible:
+
+- React
+- FastAPI
+- Supabase
+- Google Gemini
+- OpenRouter
+- Netlify
+- Render
+- Resend
+- Telegram Bot API
 
 ---
 
 # 📜 License
 
-This project is developed for educational, research, and hackathon purposes.
+This project has been developed for educational, research, and hackathon purposes.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found ARGUS interesting, consider giving this repository a Star!
+## ⭐ Support the Project
 
-Made with ❤️ for **ET AI Hackathon 2026**
+If you found ARGUS interesting, consider giving this repository a ⭐.
+
+### 🌐 Live Demo
+
+https://argus-core.netlify.app/
+
+### 💻 GitHub Repository
+
+https://github.com/ShrutiThakur1729/ARGUS
+
+### 🎥 Demo Video & Project Resources
+
+https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sharing
+
+---
+
+### Made with ❤️ by Team Aikya ∞
+
+**ET AI Hackathon 2026**
+
+*"Seeing Every Threat Before It Strikes."*
 
 </div>
+# 🏆 Hackathon Submission
+
+**Hackathon:** ET AI Hackathon 2026
+
+**Problem Statement:** PS-7 – AI-Driven Cyber Resilience for Critical National Infrastructure
+
+**Team:** Aikya ∞
