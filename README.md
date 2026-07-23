@@ -661,23 +661,6 @@ The current prototype establishes a strong foundation for enterprise cybersecuri
 **AI-Driven Cyber Resilience for Critical National Infrastructure**
 
 ---
-
-# 🙏 Acknowledgements
-
-Special thanks to the open-source technologies and cloud platforms that made ARGUS possible:
-
-- React
-- FastAPI
-- Supabase
-- Google Gemini
-- OpenRouter
-- Netlify
-- Render
-- Resend
-- Telegram Bot API
-
----
-
 # 📜 License
 
 This project has been developed for educational, research, and hackathon purposes.
@@ -711,10 +694,3 @@ https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sha
 *"Seeing Every Threat Before It Strikes."*
 
 </div>
-# 🏆 Hackathon Submission
-
-**Hackathon:** ET AI Hackathon 2026
-
-**Problem Statement:** PS-7 – AI-Driven Cyber Resilience for Critical National Infrastructure
-
-**Team:** Aikya ∞
