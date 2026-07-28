@@ -4,7 +4,7 @@
 
 ### AI-Powered Cyber Resilience Platform for Critical National Infrastructure (CNI)
 
-**ET AI Hackathon 2.0 2026 | Problem Statement 7**
+**ET AI Hackathon 2.0 2026 • Problem Statement 7**
 
 ### *Seeing Every Threat Before It Strikes.*
 
@@ -12,7 +12,13 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-ARGUS-blue?style=for-the-badge)](https://argus-core.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/ShrutiThakur1729/ARGUS)
-[![Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Google_Drive-red?style=for-the-badge)](https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=sharing)
+[![Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Google_Drive-red?style=for-the-badge)](YOUR_DRIVE_LINK)
+
+[![Frontend](https://img.shields.io/badge/Frontend-Netlify-00C7B7?logo=netlify&logoColor=white)]
+[![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render&logoColor=white)]
+[![Database](https://img.shields.io/badge/Database-Supabase-3ECF8E?logo=supabase&logoColor=white)]
+[![Monitoring](https://img.shields.io/badge/Monitoring-Sentry-362D59?logo=sentry&logoColor=white)]
+[![Analytics](https://img.shields.io/badge/Analytics-PostHog-000000?logo=posthog&logoColor=white)]
 
 </div>
 
@@ -20,347 +26,330 @@
 
 # 📌 Overview
 
-ARGUS is an **AI-powered Security Operations Center (SOC)** platform developed to strengthen the cyber resilience of **Critical National Infrastructure (CNI)** through intelligent monitoring, AI-assisted threat analysis, incident simulation, automated reporting, and real-time communication.
+ARGUS is an AI-powered Security Operations Center (SOC) platform designed to enhance the cyber resilience of Critical National Infrastructure (CNI) through intelligent monitoring, AI-assisted threat analysis, incident management, executive reporting and real-time stakeholder communication.
 
-Designed as a solution for the **ET AI Hackathon 2026 (Problem Statement 7: AI-Driven Cyber Resilience for Critical National Infrastructure)**, ARGUS combines Artificial Intelligence with enterprise cybersecurity workflows to help security analysts detect, investigate, understand, and respond to cyber threats more efficiently.
+Developed for **ET AI Hackathon 2.0 (Problem Statement 7)**, ARGUS combines cloud-native architecture, artificial intelligence and enterprise cybersecurity workflows into a unified operational platform.
 
-Unlike traditional dashboards that simply display alerts, ARGUS assists throughout the complete incident lifecycle by generating AI-powered threat summaries, MITRE ATT&CK mappings, executive reports, and automated notifications through a centralized Security Operations Center (SOC).
-
----
-
-# 📸 Prototype Preview
-
-Experience ARGUS through its enterprise-grade Security Operations Center interface.
-
----
-
-## Secure Authentication
-
-<p align="center">
-<img src="docs/images/login.png" width="90%">
-</p>
-
-Google OAuth, JWT Authentication, Organization Login and Secure Session Management.
-
----
-
-## Enterprise SOC Dashboard
-
-<p align="center">
-<img src="docs/images/dashboard.png" width="95%">
-</p>
-
-Centralized monitoring dashboard displaying threat metrics, incident summaries, AI insights, topology visualization, security analytics and operational health.
-
----
-
-## AI Threat Intelligence
-
-<p align="center">
-<img src="docs/images/ai-analysis.png" width="95%">
-</p>
-
-AI-generated executive summaries, MITRE ATT&CK mapping, confidence scoring and recommended response actions powered by Gemini Flash with OpenRouter fallback.
-
----
-
-## Incident Simulation
-
-<p align="center">
-<img src="docs/images/simulation.png" width="95%">
-</p>
-
-Generate realistic cybersecurity scenarios including SQL Injection, Ransomware, Brute Force, Data Exfiltration, Insider Threat and Malware Beaconing.
-
----
-
-## Command Center
-
-<p align="center">
-<img src="docs/images/command-center.png" width="95%">
-</p>
-
-Centralized operational console providing quick security actions, incident response workflows, report generation and AI-assisted SOC operations.
-
----
-
-## Executive Reporting
-
-<p align="center">
-<img src="docs/images/report.png" width="95%">
-</p>
-
-Generate executive-ready PDF and CSV reports containing timelines, affected assets, MITRE mappings, AI recommendations and risk summaries.
-
----
-
-# ✨ Key Features
-
-## 🤖 AI-Powered Threat Intelligence
+Unlike conventional monitoring dashboards that simply display alerts, ARGUS assists security analysts throughout the complete incident lifecycle by providing:
 
 - AI-assisted incident analysis
-- Executive threat summaries
-- Threat confidence scoring
-- MITRE ATT&CK Mapping
-- AI-generated recommendations
-- Threat prioritization
-- Gemini Flash Integration
-- OpenRouter AI Fallback
+- MITRE ATT&CK mapping
+- Executive-ready reports
+- Automated notifications
+- Organization-centric security management
+- Interactive SOC monitoring
+
+The platform has been designed using a modular architecture, allowing future expansion towards autonomous security operations, threat intelligence enrichment and AI-driven cyber resilience.
 
 ---
 
-## 📊 Enterprise SOC Dashboard
+# 🚀 Live Deployment
 
-- Real-time security monitoring
-- Live operational metrics
-- Threat analytics
-- Network topology visualization
-- Attack timeline
-- AI reasoning panel
-- Interactive command center
-
----
-
-## 🚨 Incident Management
-
-- Incident lifecycle tracking
-- Alert prioritization
-- Severity classification
-- Investigation timeline
-- Evidence collection
-- Dashboard synchronization
+| Component | Status |
+|-----------|--------|
+| 🌐 Frontend | ✅ Netlify |
+| ⚙ Backend API | ✅ Render |
+| 🗄 Database | ✅ Supabase PostgreSQL |
+| 🔐 Authentication | ✅ Google OAuth + JWT |
+| 🤖 AI Services | ✅ Gemini Flash + OpenRouter |
+| 📊 Monitoring | ✅ Sentry |
+| 📈 Product Analytics | ✅ PostHog |
 
 ---
 
-## 🎭 Incident Simulation Engine
+# 📸 Platform Preview
 
-Supports realistic cybersecurity simulations including:
+<p align="center">
 
-- SQL Injection
-- Ransomware
-- Brute Force
-- Data Exfiltration
-- Insider Threat
-- Privilege Escalation
-- Malware Beaconing
+<img src="docs/images/dashboard.png" width="95%">
 
-Every simulation automatically:
+</p>
 
-- Creates database records
-- Updates SOC dashboard
-- Triggers AI analysis
-- Generates executive reports
-- Sends Telegram notifications
-- Refreshes security metrics
-
----
-
-## 📄 Executive Report Generation
-
-Generate detailed reports in:
-
-- PDF
-- CSV
-
-Reports include:
-
-- Executive Summary
-- Incident Timeline
-- Affected Assets
-- MITRE ATT&CK Mapping
-- Risk Assessment
-- AI Recommendations
-- Containment Strategy
-
-Reports can be downloaded or automatically emailed to registered users.
-
----
-
-## 📨 Integrated Communication
-
-- Telegram Security Alerts
-- Executive Email Reports
-- Notification History
-- Delivery Logs
-- Alert Templates
-
----
-
-## 🔐 Enterprise Authentication
-
-- Google OAuth
-- Email Authentication
-- JWT Authorization
-- Secure Session Management
-- Organization-Based Access
-- Role-Based Access Control (RBAC)
-
----
-
-## 🏢 Organization Management
-
-- Multi-Organization Support
-- Institution Configuration
-- Analyst Profiles
-- Department Management
-- Organization Branding
-- Timezone Configuration
-
----
-
-## ☁ Cloud-Native Deployment
-
-- React + TypeScript Frontend
-- FastAPI Backend
-- Supabase PostgreSQL
-- REST APIs
-- Modular Architecture
-- AI Provider Failover
-- Enterprise Scalability
+> **ARGUS Security Operations Center Dashboard providing centralized monitoring, AI-assisted threat analysis, executive reporting and operational visibility.**
 
 ---
 
 # 🏗 System Architecture
 
 <p align="center">
+
 <img src="docs/images/system-architecture.png" width="100%">
+
 </p>
 
-> **High-Level Architecture of ARGUS illustrating the interaction between the Presentation Layer, Backend Services, Artificial Intelligence, Cloud Infrastructure, Database and Communication Services.**
+### Architecture Overview
+
+```
+                        ┌───────────────────────────┐
+                        │      React Frontend       │
+                        │ Dashboard • Reports • UI  │
+                        └─────────────┬─────────────┘
+                                      │
+                               REST APIs / JWT
+                                      │
+                        ┌─────────────▼─────────────┐
+                        │      FastAPI Backend      │
+                        │ Auth • APIs • Services    │
+                        └─────────────┬─────────────┘
+                                      │
+         ┌────────────────────────────┼────────────────────────────┐
+         │                            │                            │
+         ▼                            ▼                            ▼
+
+┌────────────────┐         ┌──────────────────┐         ┌────────────────────┐
+│ AI Services    │         │ Supabase         │         │ Notifications      │
+│ Gemini Flash   │         │ PostgreSQL       │         │ Telegram Bot       │
+│ OpenRouter     │         │ Authentication   │         │ Resend Email       │
+└────────────────┘         └──────────────────┘         └────────────────────┘
+         │
+         ▼
+┌────────────────────────────────────────────────────────────┐
+│ AI Analysis • MITRE ATT&CK • Reports • Recommendations     │
+└────────────────────────────────────────────────────────────┘
+
+Monitoring & Observability
+Sentry • PostHog
+```
 
 ---
 
-# 🔄 Operational Workflow
+# 🧩 Core Modules
 
-<p align="center">
-<img src="docs/images/workflow.png" width="100%">
-</p>
-
-> **End-to-End operational workflow from user authentication to AI analysis, incident response, reporting and stakeholder notification.**
+| Module | Purpose |
+|--------|---------|
+| 🔐 **Authentication** | JWT authentication, Google OAuth, role-based access control (RBAC), and organization onboarding |
+| 📊 **SOC Dashboard** | Centralized monitoring of incidents, alerts, telemetry, system health, and operational analytics |
+| 🚨 **Incident Management** | Incident lifecycle management, severity classification, investigation workflow, and response tracking |
+| 🤖 **AI Threat Intelligence** | AI-powered threat summarization, MITRE ATT&CK mapping, risk assessment, and response recommendations |
+| 📄 **Executive Reporting** | AI-assisted PDF & CSV report generation with executive summaries and incident insights |
+| 🏢 **Organization Management** | Multi-organization support, user administration, institution configuration, and profile management |
+| 🔔 **Notification Engine** | Real-time Telegram alerts, email notifications, and automated stakeholder communication |
+| ⚙️ **System Monitoring** | Sentry error monitoring, PostHog product analytics, and application observability |
 
 ---
 
+# ✨ Key Features
+
+## 🤖 AI-Powered Security Intelligence
+
+- AI-assisted incident analysis
+- MITRE ATT&CK mapping
+- Executive threat summaries
+- Threat prioritisation
+- AI-generated response recommendations
+- Gemini Flash integration
+- OpenRouter AI failover
+
+---
+
+## 📊 Security Operations Center
+
+- Unified SOC dashboard
+- Incident monitoring
+- Threat analytics
+- Interactive operational metrics
+- Security overview
+- Organization-level visibility
+
+---
+
+## 🚨 Incident Management
+
+- Incident lifecycle tracking
+- Severity classification
+- Investigation workflow
+- AI-assisted response
+- Timeline management
+- Evidence tracking
+
+---
+
+## 📄 Executive Reporting
+
+- PDF report generation
+- CSV export
+- Executive summaries
+- AI-generated recommendations
+- Incident timelines
+- Risk assessment
+
+---
+
+## 🔐 Enterprise Security
+
+- Google OAuth
+- JWT Authentication
+- RBAC
+- Secure API access
+- Organization onboarding
+- Protected routes
+
+---
 # 🛠 Technology Stack
 
-| Category | Technologies |
-|-----------|--------------|
-| Frontend | React, TypeScript, Vite, Tailwind CSS, Framer Motion |
-| Backend | FastAPI, Python, SQLAlchemy, Pydantic |
-| Database | PostgreSQL (Supabase) |
-| Authentication | Supabase Auth, Google OAuth, JWT |
-| AI Services | Gemini Flash, OpenRouter |
-| Notifications | Telegram Bot API, Resend Email |
-| Deployment | Netlify, Render |
-| Monitoring | Sentry, PostHog |
+| Layer | Technologies |
+|--------|--------------|
+| **Frontend** | React, TypeScript, Vite, Tailwind CSS |
+| **Backend** | FastAPI, Python, SQLAlchemy, Pydantic |
+| **Database** | PostgreSQL (Supabase) |
+| **Authentication** | Supabase Auth, Google OAuth, JWT |
+| **Artificial Intelligence** | Gemini Flash, OpenRouter (Fallback) |
+| **Notifications** | Telegram Bot API, Resend Email |
+| **Monitoring** | Sentry |
+| **Analytics** | PostHog |
+| **Deployment** | Netlify, Render |
+| **Version Control** | Git, GitHub |
 
 ---
 
 # 📂 Project Structure
 
 ```text
-ARGUS
+ARGUS/
 │
 ├── backend/
-│   ├── api/
-│   ├── services/
-│   ├── models/
-│   ├── schemas/
-│   ├── dispatcher/
-│   ├── ai/
-│   └── main.py
+│   ├── api/                  # REST API routes
+│   ├── core/                 # Authentication & security
+│   ├── database/             # Database configuration
+│   ├── models/               # SQLAlchemy models
+│   ├── schemas/              # Pydantic schemas
+│   ├── services/             # Business logic
+│   ├── router/               # Internal routing modules
+│   ├── config.py             # Environment configuration
+│   └── main.py               # FastAPI application
 │
 ├── frontend/
 │   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── contexts/
+│   │   └── assets/
+│   │
 │   ├── public/
-│   ├── assets/
-│   └── package.json
+│   ├── package.json
+│   └── vite.config.ts
 │
 ├── docs/
 │   └── images/
 │
-├── scripts/
+├── requirements.txt
+├── netlify.toml
 ├── README.md
-├── .env.example
-└── netlify.toml
+└── .env.example
 ```
-# ⚙️ Required Environment Variables
-
-All integrations are configured using environment variables inside the `.env` file.
-
-Copy `.env.example` before starting the project.
-
-| Variable | Description | Required |
-|-----------|-------------|----------|
-| DATABASE_URL | PostgreSQL connection string | ✅ |
-| JWT_SECRET_KEY | HS256 JWT Secret Key | ✅ |
-| JWT_ALGORITHM | JWT Algorithm (HS256) | ✅ |
-| ACCESS_TOKEN_EXPIRE_MINUTES | JWT Expiry Duration | ✅ |
-| SUPABASE_URL | Supabase Project URL | Optional |
-| SUPABASE_SERVICE_ROLE_KEY | Supabase Service Role Key | Optional |
-| TELEGRAM_BOT_TOKEN | Telegram Bot Token | Optional |
-| TELEGRAM_CHAT_ID | Telegram Chat ID | Optional |
-| GEMINI_API_KEY | Google Gemini API Key | Optional |
-| OPENROUTER_API_KEY | OpenRouter API Key | Optional |
-| RESEND_API_KEY | Resend Email API Key | Optional |
-| EMAIL_FROM | Sender Email Address | Optional |
 
 ---
 
-# 💻 Development Setup
+# ⚙ Environment Variables
+
+Create a `.env` file before running the application.
+
+| Variable | Description | Required |
+|-----------|-------------|:--------:|
+| `DATABASE_URL` | PostgreSQL connection string | ✅ |
+| `JWT_SECRET_KEY` | Secret key used for JWT signing | ✅ |
+| `JWT_ALGORITHM` | JWT signing algorithm | ✅ |
+| `ACCESS_TOKEN_EXPIRE_MINUTES` | JWT expiration time | ✅ |
+| `SUPABASE_URL` | Supabase project URL | ✅ |
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase service role key | ✅ |
+| `GEMINI_API_KEY` | Google Gemini API key | Optional |
+| `OPENROUTER_API_KEY` | OpenRouter fallback API key | Optional |
+| `TELEGRAM_BOT_TOKEN` | Telegram Bot token | Optional |
+| `TELEGRAM_CHAT_ID` | Telegram destination chat | Optional |
+| `RESEND_API_KEY` | Resend email API key | Optional |
+| `EMAIL_FROM` | Sender email address | Optional |
+
+---
+
+# 🚀 Local Development
 
 ## Prerequisites
 
 - Python 3.10+
 - Node.js 18+
 - npm
+- Git
 
 ---
 
-## Backend Installation
+## Backend Setup
 
 ```bash
-# Navigate to backend
-cd backend
+# Clone repository
 
-# Create Virtual Environment
+git clone https://github.com/ShrutiThakur1729/ARGUS.git
+
+cd ARGUS
+
+# Create virtual environment
+
 python -m venv .venv
 
 # Activate (Windows)
+
 .venv\Scripts\activate
 
 # Activate (Linux/macOS)
+
 source .venv/bin/activate
 
-# Install Dependencies
+# Install dependencies
+
 pip install -r requirements.txt
 
-# Start Backend
-uvicorn backend.main:app --reload --port 8000
+# Run FastAPI
+
+uvicorn backend.main:app --reload --port 8001
+```
+
+Backend API:
+
+```
+http://localhost:8001
+```
+
+Swagger Documentation:
+
+```
+http://localhost:8001/docs
 ```
 
 ---
 
-## Frontend Installation
+## Frontend Setup
 
 ```bash
-# Navigate to frontend
-
 cd frontend
 
-# Install Packages
-
 npm install
-
-# Start Development Server
 
 npm run dev
 ```
 
+Frontend:
+
+```
+http://localhost:5173
+```
+
 ---
 
-# 🚀 Production Deployment
+# ☁ Production Deployment
 
-## Build Frontend
+| Component | Platform |
+|-----------|----------|
+| Frontend | Netlify |
+| Backend | Render |
+| Database | Supabase PostgreSQL |
+| Authentication | Google OAuth + Supabase |
+| Monitoring | Sentry |
+| Analytics | PostHog |
+
+---
+
+## Frontend Build
 
 ```bash
 cd frontend
@@ -370,278 +359,184 @@ npm run build
 
 ---
 
-## Run Backend
+## Backend Deployment
 
 ```bash
-cd backend
-
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --workers 4
+uvicorn backend.main:app --host 0.0.0.0 --port $PORT
 ```
 
 ---
 
-# 🔌 Integration Guide
+# 🔌 External Integrations
 
-## 🟢 Supabase
-
-Configure:
-
-```
-DATABASE_URL=
-SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
-```
-
-Supabase is responsible for:
-
-- PostgreSQL Database
-- Authentication
-- User Profiles
-- Organization Data
-- Incident Storage
-- Dashboard Metrics
-- Reports
-
----
-
-## 🤖 Google Gemini
-
-```
-GEMINI_API_KEY=
-```
-
-Used for:
-
-- Threat Intelligence
-- AI Incident Analysis
-- Executive Summaries
-- MITRE ATT&CK Mapping
-- Risk Assessment
-- Recommended Response Actions
-
----
-
-## 🔄 OpenRouter (AI Fallback)
-
-```
-OPENROUTER_API_KEY=
-```
-
-If Gemini becomes unavailable or reaches quota limits, ARGUS automatically switches to OpenRouter to maintain uninterrupted AI-assisted analysis.
-
----
-
-## 📨 Telegram Integration
-
-```
-TELEGRAM_BOT_TOKEN=
-TELEGRAM_CHAT_ID=
-```
-
-Automatically sends:
-
-- Critical Alerts
-- Incident Notifications
-- Threat Updates
-- AI Recommendations
-- Executive Security Alerts
-
----
-
-## 📧 Resend Email
-
-```
-RESEND_API_KEY=
-EMAIL_FROM=
-```
-
-Supports:
-
-- Executive PDF Reports
-- CSV Reports
-- Automated Email Delivery
-- Delivery Logs
-
-During development, Resend Sandbox Mode restricts delivery to verified recipients or `onboarding@resend.dev`.
-
----
-
-# 📈 Prototype Status
-
-| Module | Status |
+| Service | Purpose |
 |----------|---------|
+| **Supabase** | Authentication, PostgreSQL database and user management |
+| **Google OAuth** | Secure social authentication |
+| **Gemini Flash** | AI-powered threat analysis and incident summarisation |
+| **OpenRouter** | AI provider failover |
+| **Telegram Bot API** | Real-time security notifications |
+| **Resend** | Executive email report delivery |
+| **Sentry** | Error monitoring and application observability |
+| **PostHog** | Product analytics and user behaviour insights |
+
+---
+
+# 🔒 Security Features
+
+- JWT Authentication
+- Google OAuth
+- Role-Based Access Control (RBAC)
+- Protected API Endpoints
+- Organization-based User Isolation
+- Secure Environment Variable Configuration
+- AI Provider Failover
+- Cloud-native Deployment
+- Error Monitoring (Sentry)
+- Product Analytics (PostHog)
+
+---
+
+# 📡 API Overview
+
+| Endpoint | Description |
+|----------|-------------|
+| `/api/v1/auth` | Authentication & authorization |
+| `/api/v1/incidents` | Incident management |
+| `/api/v1/alerts` | Security alerts |
+| `/api/v1/telemetry` | Telemetry collection |
+| `/api/v1/reports` | Report generation |
+| `/api/v1/playbooks` | Response playbooks |
+| `/api/v1/predictions` | AI predictions |
+| `/api/v1/config` | System configuration |
+| `/health` | Service health monitoring |
+
+---
+# 📈 Project Status
+
+| Component | Status |
+|-----------|:------:|
 | Secure Authentication | ✅ |
 | Google OAuth | ✅ |
-| Enterprise Dashboard | ✅ |
-| AI Threat Analysis | ✅ |
-| Incident Simulation | ✅ |
-| MITRE ATT&CK Mapping | ✅ |
-| Executive Reports | ✅ |
-| Telegram Integration | ✅ |
-| Email Delivery | ✅ |
 | Organization Management | ✅ |
-| Command Center | ✅ |
-| Integrations Module | ✅ |
-| Agent Configuration | ✅ |
-| Live Endpoint Telemetry | ✅ |
-| AI Provider Failover | ✅ |
-| Dashboard Analytics | ✅ |
+| SOC Dashboard | ✅ |
+| Incident Management | ✅ |
+| AI Threat Intelligence | ✅ |
+| Executive Reporting | ✅ |
+| Telegram Notifications | ✅ |
+| Email Notifications | ✅ |
+| FastAPI Backend | ✅ |
+| Supabase Integration | ✅ |
+| Netlify Deployment | ✅ |
+| Render Deployment | ✅ |
 | Sentry Monitoring | ✅ |
 | PostHog Analytics | ✅ |
 
 ---
 
-# 💰 Estimated Deployment Cost
-
-| Service | Prototype Cost |
-|----------|----------------|
-| Netlify | Free Tier |
-| Render | Free Tier |
-| Supabase | Free Tier |
-| Gemini Flash | Free Tier |
-| OpenRouter | Optional |
-| Telegram Bot API | Free |
-| Resend | Free Tier |
-| Google OAuth | Free |
-| Sentry | Free Tier |
-| PostHog | Free Tier |
-
-## Prototype Cost
-
-### **≈ ₹0 / Month**
-
-using available free tiers.
-
----
-
-## Small Organization Deployment
-
-Estimated monthly operational cost:
-
-**₹2,000 – ₹6,000 / month**
-
-depending upon:
-
-- AI Usage
-- Email Volume
-- Backend Resources
-- Storage
-- Traffic
-
----
-
-# 📸 Additional Screenshots
-
-## Dashboard Analytics
-
-<p align="center">
-<img src="docs/images/dashboard-analytics.png" width="95%">
-</p>
-
----
-
-## Incident Timeline
-
-<p align="center">
-<img src="docs/images/timeline.png" width="95%">
-</p>
-
----
-
-## Organization Management
-
-<p align="center">
-<img src="docs/images/organization.png" width="95%">
-</p>
-
----
-
-## Integrations Panel
-
-<p align="center">
-<img src="docs/images/integrations.png" width="95%">
-</p>
-
----
-
-## Agent Configuration
-
-<p align="center">
-<img src="docs/images/agent-config.png" width="95%">
-</p>
-
----
-
-## Settings
-
-<p align="center">
-<img src="docs/images/settings.png" width="95%">
-</p>
-
----
-
 # 🎯 Why ARGUS?
 
-ARGUS bridges the gap between traditional Security Operations Centers and AI-driven cyber resilience by combining intelligent threat analysis, automated incident response, executive reporting, and real-time communication into one unified platform.
+Critical National Infrastructure (CNI) environments require rapid threat detection, accurate incident response, and clear communication between technical teams and decision-makers.
 
-Instead of relying on multiple disconnected security tools, ARGUS provides security analysts with an end-to-end operational environment that improves investigation speed, enhances situational awareness, and supports informed decision-making through Artificial Intelligence.
+ARGUS addresses these challenges by combining AI-assisted threat intelligence, centralized incident management, executive reporting, and cloud-native deployment into a unified Security Operations Center (SOC) platform.
 
----
-
-# 🔮 Future Roadmap
-
-The current prototype establishes a strong foundation for enterprise cybersecurity operations. Planned future enhancements include:
-
-- Endpoint Monitoring Agent
-- Live Endpoint Telemetry
-- Threat Intelligence Feed Integration
-- SIEM Integration (Splunk, QRadar, Microsoft Sentinel)
-- SOAR Playbook Automation
-- AI Threat Hunting
-- Predictive Threat Analytics
-- Mobile SOC Companion Application
-- Multi-Tenant Enterprise Deployment
-- Sentry Performance Monitoring
-- PostHog Product Analytics
-- Automated Compliance Reporting
-- AI-Powered Incident Correlation
+Instead of relying on multiple disconnected security tools, ARGUS enables security analysts to monitor incidents, investigate threats, generate reports, and communicate with stakeholders from a single interface.
 
 ---
 
-# 🏆 Achievements
+# 🛣 Roadmap
 
-✔ AI-Powered Threat Intelligence
+The current implementation establishes the foundation for an enterprise-grade AI-powered SOC platform.
 
-✔ Enterprise SOC Dashboard
+### Phase 1 (Completed)
 
-✔ Intelligent Incident Simulation
-
-✔ Automated Executive Reporting
-
-✔ Telegram & Email Notifications
-
-✔ Cloud-Native Architecture
-
-✔ Multi-Organization Support
-
-✔ Secure Authentication
-
-✔ AI Provider Failover
-
-✔ Modular & Scalable Design
+- ✅ Secure Authentication
+- ✅ Google OAuth
+- ✅ Organization Management
+- ✅ SOC Dashboard
+- ✅ Incident Management
+- ✅ AI Threat Analysis
+- ✅ Executive Reporting
+- ✅ Telegram Notifications
+- ✅ Email Notifications
+- ✅ Cloud Deployment
+- ✅ Monitoring & Analytics
 
 ---
 
-# 👥 Team Aikya ∞
+### Phase 2 (Planned)
 
-## 👩‍💻 Team Member
-| Name | Role |
-|------|------|
-| **Shruti Thakur** | Full Stack Developer • AI Integration • Project Lead |
+- 🔄 Endpoint Monitoring Agent
+- 🔄 Live Host Telemetry Collection
+- 🔄 Threat Intelligence Feed Integration
+- 🔄 SIEM Integrations (Microsoft Sentinel, Splunk, IBM QRadar)
+- 🔄 Advanced Incident Correlation
+- 🔄 Compliance & Audit Reporting
 
-## 🛡️ Project
+---
 
-**ARGUS**
+### Phase 3 (AI Evolution)
+
+- 🧠 Qdrant Vector Database for Threat Knowledge Retrieval
+- 🤖 LangGraph Multi-Agent Security Orchestration
+- 📚 MITRE ATT&CK Knowledge Base
+- 🔍 Semantic Search Across Incidents & Playbooks
+- ⚡ AI-Assisted Threat Hunting
+- 📈 Predictive Risk Analytics
+
+---
+
+# 🌐 Deployment
+
+| Service | Platform |
+|----------|----------|
+| Frontend | Netlify |
+| Backend | Render |
+| Database | Supabase PostgreSQL |
+| Authentication | Google OAuth + JWT |
+| Monitoring | Sentry |
+| Product Analytics | PostHog |
+
+---
+
+# 📊 Architecture Highlights
+
+- Modular React + FastAPI architecture
+- REST-based communication
+- JWT-secured API access
+- Cloud-native deployment
+- Organization-based multi-user support
+- AI-assisted incident analysis
+- Executive reporting pipeline
+- Real-time notification services
+- Production monitoring with Sentry
+- Product analytics using PostHog
+
+---
+
+# 🚀 Future Vision
+
+ARGUS is designed as a scalable platform that can evolve beyond a hackathon prototype into a production-ready cyber resilience solution.
+
+Future iterations will focus on:
+
+- AI-driven autonomous incident response
+- Retrieval-Augmented Generation (RAG) using Qdrant
+- Multi-agent orchestration with LangGraph
+- Enterprise SIEM & SOAR integration
+- Threat intelligence enrichment
+- Predictive attack simulation
+- Multi-tenant deployment
+- Compliance automation
+- Security posture analytics
+
+---
+
+# 👥 Team
+
+<div align="center">
+
+## Team Aikya ∞
 
 ### ET AI Hackathon 2.0 2026
 
@@ -649,7 +544,34 @@ The current prototype establishes a strong foundation for enterprise cybersecuri
 
 **AI-Driven Cyber Resilience for Critical National Infrastructure**
 
+</div>
+
+| Name | Role |
+|------|------|
+| **Shruti Thakur** | Project Lead • Full Stack Development • AI Integration • Cloud Deployment |
+
 ---
+
+# 🙏 Acknowledgements
+
+ARGUS was developed using modern open-source technologies and cloud services.
+
+Special thanks to:
+
+- FastAPI
+- React
+- Supabase
+- Google Gemini
+- OpenRouter
+- Netlify
+- Render
+- Sentry
+- PostHog
+- Resend
+- Telegram Bot API
+
+---
+
 # 📜 License
 
 This project was built for the ET AI Hackathon 2.0 2026. All rights reserved.
@@ -658,15 +580,18 @@ This project was built for the ET AI Hackathon 2.0 2026. All rights reserved.
 
 <div align="center">
 
-## ⭐ Support the Project
+## ⭐ Support
 
 If you found ARGUS interesting, consider giving this repository a ⭐.
+
+It helps others discover the project and supports future development.
+
 ---
 
-### Made with ❤️ by Team Aikya ∞
+### 🛡️ ARGUS
 
-**ET AI Hackathon 2.0 2026**
+### *Seeing Every Threat Before It Strikes.*
 
-*"Seeing Every Threat Before It Strikes."*
+Built with ❤️ by **Team Aikya ∞**
 
 </div>
