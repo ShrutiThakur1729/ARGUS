@@ -12,7 +12,7 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-ARGUS-blue?style=for-the-badge)](https://argus-core.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/ShrutiThakur1729/ARGUS)
-[![Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Google_Drive-red?style=for-the-badge)](YOUR_DRIVE_LINK)
+[![Demo Video](https://img.shields.io/badge/🎥_Demo_Video-Google_Drive-red?style=for-the-badge)](https://drive.google.com/drive/folders/1Vy5D02lPtHvET1jmbXQ8d6whsz5Hek70?usp=drive_link)
 
 [![Frontend](https://img.shields.io/badge/Frontend-Netlify-00C7B7?logo=netlify&logoColor=white)]
 [![Backend](https://img.shields.io/badge/Backend-Render-46E3B7?logo=render&logoColor=white)]
