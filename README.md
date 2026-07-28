@@ -73,7 +73,7 @@ The platform has been designed using a modular architecture, allowing future exp
 
 <p align="center">
 
-<img src="docs/images/system-architecture.png" width="100%">
+<img src="image.png" width="100%">
 
 </p>
 
